@@ -1,0 +1,584 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contenedor{
+    width: 100%;
+    height: 100%;
+}
+.header{
+}
+#menu{
+    position: absolute;
+    width: 100%;
+    background-color:rgba(255,255,255,0.5);
+    z-index: 1;
+}
+#logo{
+    margin-top: 1%;
+    margin-left: 8%;
+    float: left;
+}
+#menuletras {
+    margin-top: 3.5%;
+    margin-right: 4%;
+    float: right;
+    padding: 0;
+}
+#menuletras li {
+    display: inline;
+}
+#menuletras li a {
+    font-family: "Dubai Medium";
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    float: left;
+    margin-right: 40px;
+    padding: 10px;
+}
+#menuletras li a:hover {
+    margin-top: -2px;
+    padding-bottom: 12px;]
+}
+#carrito{
+    padding-top: 5px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------SLIDER*/
+
+#todo_s{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#flecha1{
+    position: absolute;
+    float: left;
+    margin-top: 295px;
+}
+#flecha2 {
+    position: absolute;
+    float: right;
+    margin-top: 20%;
+    margin-left: 1320px;
+}
+#botonmainn{
+    text-decoration:none;
+    font-family: "Muli ExtraBold";
+    font-size:20px;
+    color: black;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:100px;
+    padding-right:100px;
+    background-color:#6F90AD;
+    border-radius: 15px;
+    position: relative;
+    float: left;
+    z-index: 1;
+    margin-top: 300px;
+    margin-left: 200px;
+    box-shadow: 10px 10px 30px;
+}
+
+/*------------------------------------------------------------------------------------------------------- SECTION */
+
+#section{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    float: left;
+    position: relative;
+    margin-top: 350px;
+}
+#comprassection{
+    float: left;
+    margin-left: 70px;
+}
+#loginsection{
+    float: left;
+    margin-left: 200px;
+}
+#profuctossection{
+    float: left;
+    margin-left: 200px;
+}
+.vectores{
+    margin-top: 60px;
+}
+.letrasvectores{
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+/*    ------------------------------------------------------------------------------------------------- FOOTER           */
+#futer{
+    z-index: 1;
+    position: absolute;
+    margin-top: 1200px;
+}
+
+
+#abajo{
+    background-color: #383333;
+    width: 100%;
+    height: 410px;
+}
+#mapa{
+    float: left;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right:32px;
+}
+#fotofooter{
+    float: right;
+    margin-top: 70px;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------ AREA PRIVADA */
+#titulo{
+    font-family: Muli;
+    font-size: 70px;
+    margin-left: 80px;
+    position: relative;
+    margin-top: 30px;
+
+}
+#todo_c{
+    z-index: 0;
+    position: static;
+    width: 100%;
+    height: 100%;
+}
+.areaPrivada{
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: static;
+    margin-top: 50px;
+}
+.areaPrivadaCaja{
+    z-index: 0;
+    width:700px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+.areaPrivadaCaja2{
+    font-size: 20px;
+    background-color: #6F90AD;
+    border-radius: 20px;
+    padding: 10px;
+    height: 400px;
+}
+#datosusuario{
+    width: 90%;
+    margin-left: 40px;
+    height: 500px;
+}
+#foto_datosu{
+    position: relative;
+    z-index: 1;
+    float: right;
+}
+.ll{
+    margin-left: 30px;
+}
+#logout{
+    color: crimson;
+    text-decoration: none;
+    margin-left: 580px;
+    margin-top: 30px;
+}
+#cajaabajo{
+    width: 70%;
+
+}
+.areaPrivadaCaja3{
+    width: 650px;
+    height: 500px;
+    background-color: #6F90AD;
+    border-radius: 20px;
+    float: right;
+}
+.fain{
+    padding-top: 40px ;
+}
+/*------------------------------------------------------------------------------------------------------ LOGIN */
+
+
+#todologin{
+    margin-top: 150px;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+#formulario_login{
+    width: 600px;
+    height: 457px;
+    background-color: #6F90AD;
+    list-style: none;
+    float: left;
+}
+#imglogin{
+    float: left;
+}
+#letraslogin{
+    margin-top: 100px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.lf{
+    margin-top:50px;
+    margin-left: 10px;
+    font-style: italic;
+    text-anchor: middle;
+}
+.ll {
+    margin-top: 30px;
+    border-style: none;
+    background-color: #6F90AD;
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-left: 15px;
+    height: 35px;
+}
+.botonlogin{
+    color: black;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+.botonregistrate{
+    font-size: medium;
+    background-color: #6F90AD;
+    border-style: none;
+    color: rgb(45,68,87);
+}
+/*-----------------------------------------------------------------------------------------VER CASA */
+.verCasa{
+    z-index: 0;
+    width:700px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+#datosusuarioac{
+    list-style: none;
+    position: relative;
+    margin-left: 80px;
+    font-family: "Muli ExtraBold";
+}
+#datosusuarioac2{
+    position: relative;
+    float: right;
+    margin-top: -238px;
+    margin-right: 80px;
+    list-style: none;
+}
+#todoAC{
+    margin-top: 60px;
+}
+#titulo2{
+    font-family: Muli;
+    font-size: 70px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top:30px;
+}
+#jaja{
+    background-color: #6F90AD;
+}
+.rr{
+    font-family: Muli;
+    font-size: 20px;
+    float: left;
+    margin-left: 60px;
+}
+.rrr{
+    float: right;
+    margin-right: 10px;
+}
+#listicamax{
+    padding-top: 50px;
+    width: 1000px;
+    float: left;
+}
+/*---------------------------------------------------------------------------------------PRESUPUESTO*/
+/*estilos para el formulario*/
+#formulariopresupuestotodo{
+    position: absolute;
+    background-color: #6f90ad;
+    width: 1250px;
+    margin-left: 5%;
+    height: 400px;
+    margin-top: 150px;
+    float: left;
+    margin-bottom: 40px;
+
+}
+#formulariopresupuesto{
+    width: 600px;
+    float: left;
+    margin-top: 75px;
+}
+.formulario{
+
+}
+header label{
+    float: left;
+}
+
+form {
+    list-style:none;
+    text-align: center;
+}
+label{
+
+}
+
+li{
+    margin-bottom: 10px;
+}
+ul{
+    list-style:none;
+}
+#skere{
+    position: absolute;
+    margin-top: 20px;
+    background-color: #6f90ad;
+    margin-left: 80px;
+}
+
+
+.dato0{
+    width: 250px;
+    height: 30px;
+    color:gray;
+    border-radius: 5px;
+}
+.dato1{
+    width: 400px;
+    height: 30px;
+    border-style: none;
+    color:gray;
+    border-radius: 5px;
+}
+.botonpresupuesto{
+    color: black;
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+#imgpresupuesto{
+    float: right;
+    position: relative;
+    margin-left: 14px;
+}
+
+/*---------------------------------------------------------------------------REGISTRARSE-----------*/
+#registrate{
+    position: relative;
+    float: right;
+    margin-right: 60px;
+    margin-top: 200px;
+    width: 1200px;
+    height: 800px;
+    background-color: #6F90AD;
+}
+#formularioregistro{
+    float: left;
+    width: 600px;
+    margin-top: 80px;
+}
+#formularioregistro input{
+    border-style: none;
+    margin-top: 20px;
+}
+#enviarregistro{
+    color: black;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
+/*-----------------------------------------------------------------------------------------PRODUCTOS*/
+
+#productosfoto{
+    z-index: 0;
+    position: relative;
+}
+#producto1{
+    margin-top: 100px;
+    width: 100%;
+    height: 433px;
+    background-color:rgba(95,158,160,0.5);
+}
+#fotopr1{
+
+}
+#product2{
+    width: 100%;
+    height: 768px;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+#producto3{
+    margin-top: 100px;
+    width: 100%;
+    height: 433px;
+    background-color:rgba(95,158,160,0.5);
+}
+#fotopr2{
+    float: right;
+}
+.letrapr{
+    color: #273fad;
+    font-family: "Muli ExtraBold";
+    font-size: 40px;
+    position: absolute;
+}
+.letrapr2{
+    color: black;
+    font-family: "Muli ExtraBold";
+    font-size: 40px;
+    position: absolute;
+}
+#a{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#c{
+    margin-left: 700px;
+}
+
+/*-----------------------------------------------------------------------------------VER CASA------------*/
+
+
+/*-----------------------------------------------------------------------------------MODIFICAR CASA------------*/
+#todomc{
+    width: 50%;
+    height: 500px;
+    margin-left: 350px;
+    z-index: 1;
+    margin-top: -580px;
+    position: relative;
+    border-radius: 7px;
+    background-color: rgba(111,144,173,0.9);
+}
+#formulariomc{
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#fotomc{
+    z-index: 0;
+    position: relative;
+}
+
+/*-------------------------------------------------------------------------------------VER CASA---------------------*/
+#datosdelacasa{
+    float: left;
+    margin-left: 200px;
+    font-family: Muli;
+    font-size: 20px;
+}
+#datosdelacasa1{
+    font-family: Muli;
+    font-size: 20px;
+    float: left;
+    margin-left: 100px;
+}
+#fotodelacasa{
+    margin-right: 100px;
+    float: right;
+}
+#botonvercasa{
+    float: right;
+    color: #6F90AD;
+    margin-top: 220px;
+}
+#botonvercasa a{
+   color: black;
+}
+#todover{
+    width: 100%;
+    background-color: #6F90AD;
+}
